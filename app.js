@@ -140,7 +140,7 @@
     if (headerTarget) headerTarget.innerHTML = header();
     if (footerTarget) footerTarget.innerHTML = footer();
     document.body.insertAdjacentHTML('beforeend', mobileMenu());
-    document.body.insertAdjacentHTML('beforeend', '<a class="whatsapp-float" href="https://wa.me/573004567890" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">' + icon('whatsapp') + '</a>');
+    document.body.insertAdjacentHTML('beforeend', '<a class="whatsapp-float" href="https://wa.me/573016054109?text=Hola%2C%20quiero%20recibir%20asesor%C3%ADa%20sobre%20los%20aceites%20LubriGo." target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">' + icon('whatsapp') + '</a>');
     if (!localStorage.getItem('lubrigo-cookies-v1')) document.body.insertAdjacentHTML('beforeend', cookieBanner());
     updateCartCount();
     document.querySelectorAll('.js-year').forEach(function (node) { node.textContent = new Date().getFullYear(); });
